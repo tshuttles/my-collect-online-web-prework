@@ -1,5 +1,6 @@
 def my_collect(collection)
   x = 0 
+  collection = [] 
   while x < collection.length 
     yield(collection[x]) do 
     x += 1 
